@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="106,77,0,0" VerticalAlignment="Top" FontSize="19"/>
+        <Label Content="Sobrenome" HorizontalAlignment="Left" Margin="106,170,0,0" VerticalAlignment="Top" FontSize="19"/>
+        <Label Content="Nome Completo" HorizontalAlignment="Left" Margin="106,309,0,0" VerticalAlignment="Top" FontSize="19"/>
+        <TextBox x:Name="TextBoxNome" HorizontalAlignment="Left" Margin="298,95,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="TextBoxSobre" HorizontalAlignment="Left" Margin="298,188,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="TextBoxCompleto" HorizontalAlignment="Left" Margin="298,316,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button x:Name="Exibir" Content="Button" HorizontalAlignment="Left" Margin="400,245,0,0" VerticalAlignment="Top" FontSize="20" Click="Exibir_Click"/>
+
+    </Grid>
+</Window>
